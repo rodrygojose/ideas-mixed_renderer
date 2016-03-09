@@ -108,8 +108,8 @@ reference "sec:Model-selection-and"
 
 \end_inset
 
-, we have a posed 3D model that projected into the input cameras, it does
- approximate the 
+, we have a 3D model (with a estimated pose) that projected into the input
+ cameras, it does approximate the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -126,6 +126,10 @@ reference "fig:Model-projection-into"
 \end_inset
 
 ).
+ Due to inaccuracies in camera parameters, model selection, pose estimation,
+ distortions and other sources of errors.
+ We need then to refine the aligment and mod.
+ (Snakes Efros)
 \end_layout
 
 \begin_layout Standard
@@ -144,7 +148,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename bopusquet_car_clio.png
+	filename images/bopusquet_car_clio.png
 	lyxscale 20
 	width 5cm
 
@@ -162,10 +166,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -183,7 +183,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename street10_honda-twingo.png
+	filename images/street10_honda-twingo.png
 	lyxscale 20
 	width 5cm
 
@@ -201,25 +201,21 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
-	filename yellowshose12_nissan.png
+	filename images/yellowshose12_nissan.png
 	lyxscale 30
 	width 5cm
 
@@ -234,10 +230,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -269,22 +261,9 @@ name "fig:Model-projection-into"
 
 \end_layout
 
-\begin_layout Plain Layout
-\align center
-
-\end_layout
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Snakes 
-\end_layout
-
-\begin_layout Standard
-Efros
 \end_layout
 
 \end_body
