@@ -274,7 +274,18 @@ Due to inaccuracies in camera parameters, model selection, pose estimation,
 A possible strategy would be to modify the model (Snakes Efros, use before
  MV segmentation??? ) to fit the contours in a set if input views.
  After this....
- we need to know how to blend.`
+ we need to know how to blend.
+\end_layout
+
+\begin_layout Standard
+A limitation of active contours based on parametric curves of the form of
+ snakes, is that it is challenging to change the topology of the curve as
+ it evolves.
+ (McInerney and Terzopoulos (1999, 2000)) 
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
