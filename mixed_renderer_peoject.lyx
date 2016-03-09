@@ -126,10 +126,7 @@ reference "fig:Model-projection-into"
 \end_inset
 
 ).
- Due to inaccuracies in camera parameters, model selection, pose estimation,
- distortions and other sources of errors.
- We need then to refine the aligment and mod.
- (Snakes Efros)
+ 
 \end_layout
 
 \begin_layout Standard
@@ -137,7 +134,7 @@ reference "fig:Model-projection-into"
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -264,6 +261,20 @@ name "fig:Model-projection-into"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Due to inaccuracies in camera parameters, model selection, pose estimation,
+ distortions and other sources of errors, it would not be possible to perfectly
+ align the model for all view points.
+ 
+\end_layout
+
+\begin_layout Standard
+A possible strategy would be to modify the model (Snakes Efros, use before
+ MV segmentation??? ) to fit the contours in a set if input views.
+ After this....
+ we need to know how to blend.`
 \end_layout
 
 \end_body
